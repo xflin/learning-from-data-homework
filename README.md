@@ -15,7 +15,7 @@ export VENVPATH=~/jupyter
 
 brew install python3 --framework
 pip3 install --upgrade pip setuptools wheel
-virtualenv $VENVPATH
+virtualenv -p python3 $VENVPATH
 source $VENVPATH/bin/activate
 pip install jupyter pandas
 
