@@ -19,7 +19,7 @@ virtualenv -p python3 $VENVPATH
 source $VENVPATH/bin/activate
 pip install jupyter pandas
 
-Install matplotlib:
+# Install matplotlib:
 # Issue as documented: https://github.com/matplotlib/matplotlib/issues/3029
 brew install freetype pkg-config
 pip install matplotlib
